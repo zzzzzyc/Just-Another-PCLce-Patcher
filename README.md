@@ -1,9 +1,15 @@
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/zzzzzyc/Just-Another-PCLce-Patcher/main/Assets/icon.png" width="250" alt="Just Another PCLce Patcher">
+
 # Just Another PCLce Patcher
 
 [![Release](https://img.shields.io/github/v/release/zzzzzyc/Just-Another-PCLce-Patcher)](https://github.com/zzzzzyc/Just-Another-PCLce-Patcher/releases/latest)
 [![License: WTFPL](https://img.shields.io/badge/license-WTFPL-blue.svg)](LICENSE)
 
 只是又一个PCL-CE补丁
+
+</div>
 
 给 PCL CE 松松绑。通过 .NET Startup Hook 和 Harmony，在启动时应用你选好的修改。
 
@@ -34,4 +40,10 @@
 
 在 Windows 上安装 .NET SDK 8 或更高版本，运行 `./build.ps1`，产物位于 `dist/`。
 
-源码使用 [WTFPL](LICENSE)。依赖 [Harmony](https://github.com/pardeike/Harmony)（MIT），运行包附带其许可文本。
+## 许可证与致谢
+
+源码使用 [WTFPL](LICENSE)。
+
+- [PCL CE](https://github.com/PCL-Community/PCL-CE)：社区版启动器。
+- [Harmony](https://github.com/pardeike/Harmony)：运行时补丁库，使用 MIT 许可。
+- [Octobersama / PCL-CE-Patcher](https://github.com/Octobersama/PCL-CE-Patcher)：README 排版参考。
