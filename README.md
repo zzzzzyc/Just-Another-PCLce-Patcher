@@ -28,20 +28,6 @@
 
 默认会清理 BAT、PS1、README 和两个许可证文件，可在菜单第 6 项关闭。日常使用保留 `PCL.exe`、`Hook.dll`、`0Harmony.dll`、`Hook.ini` 和 `Original/` 里的原版程序。
 
-## 修改配置
-
-重新解压 `Start-PCL.bat` 和 `Start-PCL.ps1` 即可再次打开菜单。也可以直接编辑 `Hook.ini`，`1` 开启、`0` 关闭，重启 PCL 生效：
-
-```ini
-UnlockRegion=1
-UnlockProfiles=1
-DisableTelemetry=1
-DisableLobbyTelemetry=1
-HideCommunityHint=1
-```
-
-配置项依次对应上面的五个功能。删除配置文件会恢复全部开启。
-
 ## 编译
 
 在 Windows 上安装 .NET SDK 8 或更高版本，运行 `./build.ps1`，产物位于 `dist/`。
