@@ -3,6 +3,8 @@
 [![Release](https://img.shields.io/github/v/release/zzzzzyc/Just-Another-PCLce-Patcher)](https://github.com/zzzzzyc/Just-Another-PCLce-Patcher/releases/latest)
 [![License: WTFPL](https://img.shields.io/badge/license-WTFPL-blue.svg)](LICENSE)
 
+只是又一个PCL-CE补丁
+
 给 PCL CE 松松绑。通过 .NET Startup Hook 和 Harmony，在启动时应用你选好的修改。
 
 **[下载运行包](https://github.com/zzzzzyc/Just-Another-PCLce-Patcher/releases/latest/download/Just-Another-PCLce-Patcher.zip)** · [反馈问题](https://github.com/zzzzzyc/Just-Another-PCLce-Patcher/issues)
